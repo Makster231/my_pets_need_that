@@ -1,0 +1,30 @@
+﻿//Bootstrap:
+@import "../../node_modules/bootstrap-scss/bootstrap-reboot";
+// @import "../../node_modules/bootstrap-scss/bootstrap-grid";
+//variables:
+@import "settings/reset";
+@import "settings/brand-color";
+@import "settings/grid-variable";
+
+/* purgecss start ignore */
+//UI:
+@import "UI/loader";
+@import "UI/css_sprites";
+@import "UI/fontello";
+@import "UI/fontello-codes";
+@import "UI/sticky-polyfill";
+@import "UI/animation";
+@import "UI/fancybox";
+@import "UI/slick-slider";
+@import "UI/btn";
+@import "UI/tooltipster";
+
+//Components:
+@import "components/wrapper-page";
+@import "components/header";
+@import "components/entry";
+@import "components/main";
+@import "components/calculator.scss";
+@import "components/footer";
+@import "components/grid";
+/* purgecss end ignore */
